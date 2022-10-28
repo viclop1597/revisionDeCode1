@@ -4,8 +4,9 @@ Pero debido a que al parecer nada de eso existe en el documento, nos manda un er
 /* Reasigné la variable usersEndPoint para eliminar una linea de code y le cambié el nombre siguiendo CamelCase*/
 const usersEndPoint = 'https://api.github.com/users';
 /* Cambié el nombre de las variables, ya que empezaban con un $  */
+/* Linkee bien */
 const n = document.querySelector('.name');
-const b = document.querySelector('#blog');
+const b = document.querySelector('.blog');
 const l = document.querySelector('.location');
 
 /* Agregué el async para que el await funcionara */
